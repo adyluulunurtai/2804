@@ -8,7 +8,9 @@ function StateExample(props) {
   return (
     <Layout>
       <Hero>State Example</Hero>
-      <Content>Simple state example</Content>
+      <Content>
+        <p>Simple state example</p>
+      </Content>
     </Layout>
   );
 }
